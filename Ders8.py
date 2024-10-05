@@ -238,7 +238,7 @@ class BankSystem:
                 print("Geçersiz seçim.")
 
 
-bank = BankSystem()
+kesifplus_bankası = BankSystem()
 
 while True:
     print("""
@@ -250,9 +250,9 @@ while True:
     secim = input("Seçiminiz: ")
 
     if secim == "1":
-        bank.login()
+        kesifplus_bankası.login()
     elif secim == "2":
-        bank.register()
+        kesifplus_bankası.register()
     elif secim == "3":
         break
     else:
